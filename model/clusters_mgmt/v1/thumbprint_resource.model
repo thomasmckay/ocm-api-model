@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-// Provides the role arn to use to assume the support role in the customer's aws account.
+// Thumbprint of the cluster's OpenID Connect identity provider
 resource Thumbprint {
 	method Get {
 		out Body Thumbprint
