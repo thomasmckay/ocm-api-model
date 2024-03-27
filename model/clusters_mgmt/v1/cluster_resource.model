@@ -209,10 +209,4 @@ resource Cluster {
 	locator KubeletConfig {
 	    target KubeletConfig
 	}
-
-	// Reference to the resource that gets OIDC thumbprint on this cluster.
-	locator Thumbprint {
-	    target Thumbprint
-	}
-
 }

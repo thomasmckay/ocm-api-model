@@ -15,8 +15,8 @@ limitations under the License.
 */
 
 // Thumbprint of the cluster's OpenID Connect identity provider
-resource Thumbprint {
+resource AwsOidcThumbprint {
 	method Get {
-		out Body Thumbprint
+		out Body AwsOidcThumbprint
 	}
 }

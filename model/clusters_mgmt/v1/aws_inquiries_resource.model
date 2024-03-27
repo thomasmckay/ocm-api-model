@@ -50,4 +50,9 @@ resource AWSInquiries {
     locator ValidateCredentials {
         target AwsValidateCredentials
     }
+
+	// Reference to the resource that gets OIDC thumbprint from AWS
+	locator OidcThumbprint {
+	    target AwsOidcThumbprint
+	}
 }

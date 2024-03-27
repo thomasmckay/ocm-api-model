@@ -15,7 +15,7 @@ limitations under the License.
 */
 
 // Thumbprint of the cluster's OpenID Connect identity provider
-struct Thumbprint {
+struct AwsOidcThumbprint {
 	// SHA1 of the certificate of the top intermediate CA in the certificate authority chain
 	Thumbprint String
 }
