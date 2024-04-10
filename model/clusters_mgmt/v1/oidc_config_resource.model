@@ -19,11 +19,6 @@ resource OidcConfig {
 	// Retrieves the details of an OidcConfig.
 	method Get {
 		out Body OidcConfig
-
-		// If true, includes the thumbprint retrieved from the issuer URL.
-		@http(name = "fetchThumbprint")
-		in FetchThumbprint Boolean
-
 	}
 
 	// Updates attributes of an OidcConfig.
